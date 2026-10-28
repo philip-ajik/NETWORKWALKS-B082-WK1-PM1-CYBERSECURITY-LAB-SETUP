@@ -168,6 +168,19 @@ DNS Server: 8.8.8.8
 
 ---
 
+# 🔐 Security & Ethical Use
+
+This laboratory is intended strictly for education purposes only.
+
+---
+
+# 🔗 Tools & Resources
+
+- **VirtualBox:** [https://virtualbox.org/wiki/Downloads](https://virtualbox.org/wiki/Downloads)
+- **Kali Linux:** [https://kali.org/get-kali](https://kali.org/get-kali)
+
+---
+
 # 👤 Author
 
 **Philip Ajik**  
