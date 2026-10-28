@@ -105,6 +105,7 @@ To enable seamless file transfers between the Ubuntu host and Kali VM:
 ```bash
 sudo adduser philip vboxsf
 ```
+![SHARED FOLDER](3-shared-folder.png)
 
 ## Step 4. Static IP & Network Manager Fix
 
@@ -117,6 +118,8 @@ sudo nmcli connection modify "Wired connection 1" ipv4.dad-timeout 0
 sudo nmcli connection down "Wired connection 1"
 sudo nmcli connection up "Wired connection 1"
 ```
+
+![NMCLI TERMINAL](4-nmcli-terminal-fix.png)
 
 ## Step 5. Baseline Snapshot Creation
 
@@ -134,6 +137,8 @@ Created a baseline snapshot named `Clean_Setup_Completed` to preserve the config
 | 📡 Gateway Reachability         | `ping -c 4 10.0.0.1`  | 0% packet loss                     |
 | 🌍 Internet ICMP Test           | `ping -c 4 8.8.8.8`   | Active ICMP replies received       |
 | 📁 Shared Folder Verification   | `ls /media/`          | `sf_Downloads` directory accessible|
+
+![PING SUCCESS](6-ping-success.png)
 
 ### Verification Screenshots & Logs
 
